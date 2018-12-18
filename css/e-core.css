@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+html, body, form, fieldset, h1, h2, h3, h4, h5, h6, pre, blockquote, ul, ol, dl, dd {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  color: #eee;
+}
+h1 {
+  font-size: 1.6em;
+}
+h2 {
+  font-size: 1.2em;
+}
+a:link {
+  text-decoration: none;
+  color: #00bd8e;
+}
+a:visited {
+  text-decoration: none;
+  color: #00bd8e;
+}
+a:active {
+  text-decoration: none;
+  color: #00bd8e;
+}
+a:hover {
+  text-decoration: underline;
+  color: #00e9af;
+}
+p {
+  text-align: justify;
+}
+input {
+  color: #202020;
+}
+ul li {
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+}
+img {
+  border: 0;
+  vertical-align: text-top;
+}
+.curvedBoxLeft {
+  width: 480px;
+  padding: 16px;
+  border: 1px solid #096;
+  background: #000;
+  border-radius: 16px;
+}
+.curvedBoxRight {
+  width: 160px;
+  padding: 16px;
+  border: 1px solid #096;
+  background: #000;
+  border-radius: 16px;
+}
+.recordBoxLeft {
+  width: 100px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  float: left;
+}
+.recordBoxRight {
+  display: inline;
+}
+.boxSplitter {
+  height: 16px;
+  clear: both;
+}
+.greenSplitter {
+  border: 0;
+  height: 1px;
+  color: #690;
+  background-color: #096;
+  clear: both;
+}
+.simpleSplitter {
+  clear: both;
+}
+#bodyBackground {
+  background-color: #111;
+}
+#contentWrapper {
+  width: 720px;
+  margin: 0 auto;
+}
+#contentLeftWrapper {
+  width: 528px;
+  float: left;
+  margin: 0;
+}
+#contentRightWrapper {
+  width: 192px;
+  float: right;
+  margin: 0;
+  display: inline;
+}
+#footer {
+  background-color: #000;
+  min-height: 16px;
+  text-align: center;
+  font-size: 0.8em;
+  color: #999;
+}
+#logo {
+  padding: 16px;
+  background-image: url(/img/bg-grad-2.png);
+  background-repeat: repeat-x;
+}
+#logoWrapper {
+  margin: 0;
+  height: 157px;
+  background-color: #404040;
+  text-align: center; 
+}
+#navigationWrapper {
+  margin: 0;
+  height: 96px;
+  background-color: #000;
+  background-image: url(/img/dark-dark.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#social {
+  padding: 16px;
+  height: 64px;
+  float: right;
+}
+#socialList li {
+  float: left;
+}
+#socialList li a {
+  display: block;
+  text-decoration: none;
+}
